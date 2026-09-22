@@ -1,0 +1,2 @@
+1. use user stories and here it is important that These factor in the Features, followed by Tasks and implementation s. 
+a. What we do then is for the functionalities to indicate what they are Building underneath it. 
