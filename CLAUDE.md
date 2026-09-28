@@ -51,6 +51,8 @@ python -m pytest test
 
 ## Conventions
 
+- At the end of every session, update `PROGRESS.md`: add a dated session log entry and refresh the Done and To do lists.
+
 - Plan work as user stories broken into Features, then Tasks, then implementation. For each feature, note what is being built underneath it.
 - Treat health and location data as sensitive: never log raw GPS traces or health metrics, keep Supabase service keys server-side only, and enforce Row Level Security on user data tables.
 - Fairness logic (baselines, handicaps, anti-cheat) lives in the backend, never only in the frontend.
