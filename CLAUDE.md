@@ -43,7 +43,3 @@ python -m pytest test
 - Never commit `.env`, `.venv/`, `node_modules/` or `dist/` (covered by `.gitignore`).
 - Development shell is Windows (PowerShell / Git Bash); use Windows venv paths in docs.
 - Default branch on GitHub is `main`; local work currently happens on `master`.
-
-## Related context
-
-- The Finde app uses Supabase auth. Confirmation emails depend on Supabase's default sender (about 2 emails/hour). Custom SMTP on thefindeapp.com is a blocker before promotion. See `fix the email issue.txt`.
